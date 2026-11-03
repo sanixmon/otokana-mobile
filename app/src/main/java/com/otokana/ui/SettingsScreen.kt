@@ -74,6 +74,8 @@ fun SettingsScreen(vm: AppViewModel) {
                 }
             }
             vm.prefsError?.let { Text("Settings not saved: $it", color = Palette.PenaMerah, style = MaterialTheme.typography.bodyMedium) }
+            androidx.compose.material3.HorizontalDivider(color = Palette.GarisPemisah)
+            CreditsSection()
         }
     }
 }

@@ -19,6 +19,12 @@ An Android port of [OtoKana](https://github.com/kumorinka/otokana), for practici
 | `store` | `internal/store` | `settings.json`, `history.json`, `voicebanks/<id>/` in the app's files dir |
 | `ui` | `view` | Compose screens: Setup, Play, Results, Settings, Import |
 
-## Fonts
+## Credits
 
-Klee One and Zen Kaku Gothic New, under the SIL Open Font License: see `licenses/`.
+- **OtoKana** by [kumorinka](https://github.com/kumorinka): the original desktop app ([kumorinka/otokana](https://github.com/kumorinka/otokana)). Its design, palette, kana table, practice rules, voicebank handling and app icon are theirs; this app ports them to Android.
+- **Klee One**: Copyright 2020 The Klee Project Authors ([fontworks-fonts/Klee](https://github.com/fontworks-fonts/Klee)), SIL Open Font License 1.1.
+- **Zen Kaku Gothic New**: Copyright 2022 The Zen Kaku Gothic Project Authors ([googlefonts/zen-kakugothic](https://github.com/googlefonts/zen-kakugothic)), SIL Open Font License 1.1.
+- **UTAU** voicebank format and **[OpenUtau](https://github.com/stakira/OpenUtau)**'s way of reading oto.ini, character.yaml, prefix.map and voice colors, which the import follows.
+- **[Jetpack Compose](https://developer.android.com/jetpack/compose)**, **Material 3** and **AndroidX** (Apache License 2.0), and **[kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization)** (Apache License 2.0).
+
+The font licenses are in `licenses/` and ship inside the APK under `assets/licenses/`. No voicebank or audio comes with the app: use one you have the right to use.
