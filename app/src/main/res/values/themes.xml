@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The desk color until Compose draws its first frame. -->
+    <style name="Theme.OtoKana" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#22201C</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
